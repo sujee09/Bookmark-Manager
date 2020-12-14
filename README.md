@@ -8,4 +8,4 @@ bookmarks, website
 Verb
 visit, see
 
-![Test Image 1](screenshot.PNG)
+![Test Image 1](Screenshot.PNG)
