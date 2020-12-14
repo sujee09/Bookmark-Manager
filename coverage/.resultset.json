@@ -1,8 +1,30 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/Bookmark-Manager/spec/features/returning_hello_spec.rb": {
+      "/Users/rsujee/Makers/Bookmark-Manager/spec/bookmark_spec.rb": {
         "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rsujee/Makers/Bookmark-Manager/spec/features/viewing_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           1,
           1,
           1,
@@ -12,6 +34,6 @@
         ]
       }
     },
-    "timestamp": 1607963021
+    "timestamp": 1607966510
   }
 }
