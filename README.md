@@ -10,4 +10,4 @@ bookmarks, website
 ### Verb
 visit, see
 
-![Image of Domain Model](https://imgur.com/HnF3VPj)
+[![Image of Domain Model](https://imgur.com/HnF3VPj)](https://imgur.com/HnF3VPj)
