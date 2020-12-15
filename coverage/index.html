@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-12-14T17:21:50+00:00">2020-12-14T17:21:50+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-12-15T15:40:55+00:00">2020-12-15T15:40:55+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>15</b> relevant lines,
-    <span class="green"><b>15</b> lines covered</span> and
+    <b>16</b> relevant lines,
+    <span class="green"><b>16</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -71,7 +71,7 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#23634a8e0759d5ed69ee44dbfa088024de84701f" class="src_link" title="spec/bookmark_spec.rb">spec/bookmark_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#83a3669c435135497ea815f82661a7488c74fc2b" class="src_link" title="spec/bookmark_spec.rb">spec/bookmark_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">12</td>
             <td class="cell--number">7</td>
@@ -82,11 +82,11 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#f0f746832ec874f92b54d49638b39fe6bcbbf3d2" class="src_link" title="spec/features/viewing_bookmark_spec.rb">spec/features/viewing_bookmark_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#286910935c633e089b261fbe82caa4d38aee22ff" class="src_link" title="spec/features/viewing_bookmark_spec.rb">spec/features/viewing_bookmark_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">12</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">8</td>
+            <td class="cell--number">13</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">9</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -109,7 +109,7 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="23634a8e0759d5ed69ee44dbfa088024de84701f">
+        <div class="source_table" id="83a3669c435135497ea815f82661a7488c74fc2b">
   <div class="header">
     <h3>spec/bookmark_spec.rb</h3>
     <h4>
@@ -272,7 +272,7 @@
 </div>
 
       
-        <div class="source_table" id="f0f746832ec874f92b54d49638b39fe6bcbbf3d2">
+        <div class="source_table" id="286910935c633e089b261fbe82caa4d38aee22ff">
   <div class="header">
     <h3>spec/features/viewing_bookmark_spec.rb</h3>
     <h4>
@@ -286,8 +286,8 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>9</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -305,7 +305,7 @@
 
             
 
-            <code class="ruby">feature &#39;view a list of bookmarks&#39; do</code>
+            <code class="ruby">feature &quot;view a list of bookmarks&quot; do</code>
           </li>
         </div>
       
@@ -316,7 +316,7 @@
 
             
 
-            <code class="ruby">  scenario &#39;goes to main page&#39; do</code>
+            <code class="ruby">  scenario &quot;goes to main page&quot; do</code>
           </li>
         </div>
       
@@ -327,7 +327,7 @@
 
             
 
-            <code class="ruby">    visit(&#39;/bookmark&#39;)</code>
+            <code class="ruby">    visit(&quot;/bookmark&quot;)</code>
           </li>
         </div>
       
@@ -338,7 +338,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content &#39;Bookmark Manager&#39;</code>
+            <code class="ruby">    expect(page).to have_content &quot;Bookmark Manager&quot;</code>
           </li>
         </div>
       
@@ -371,7 +371,7 @@
 
             
 
-            <code class="ruby">  scenario &#39;lets a user see the bookmarks&#39; do</code>
+            <code class="ruby">  scenario &quot;lets a user see the bookmarks&quot; do</code>
           </li>
         </div>
       
@@ -382,7 +382,7 @@
 
             
 
-            <code class="ruby">    visit(&#39;/bookmark&#39;)</code>
+            <code class="ruby">    visit(&quot;/bookmark&quot;)</code>
           </li>
         </div>
       
@@ -393,7 +393,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content &#39;http://www.google.com&#39;</code>
+            <code class="ruby">    expect(page).to have_content &quot;http://www.makersacademy.com&quot;</code>
           </li>
         </div>
       
@@ -404,12 +404,23 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content &#39;http://www.makersacademy.com&#39;</code>
+            <code class="ruby">    expect(page).to have_content &quot;http://www.google.com&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content &quot;http://www.destroyallsoftware.com&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
@@ -420,7 +431,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
+          <li class="never" data-hits="" data-linenumber="13">
             
             
 
