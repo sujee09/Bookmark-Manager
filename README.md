@@ -10,7 +10,7 @@ bookmarks, website
 ### Verb
 visit, see
 
-![Image of Domain Model](https://imgur.com/HnF3VPj)](https://imgur.com/HnF3VPj)
+![Screenshot](https://imgur.com/HnF3VPj)
 
 ### Steps to Connect to the Database
 1. Connect to psql
